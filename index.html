@@ -1,24 +1,137 @@
 <!doctype html>
 <html>
 <head>
-	<style>
-		body {
-		  
-		  background-image: url(img/OmegaHeroes_Poster.png);
-		  
-		  background-position: center center;
-		  
-		  background-repeat: no-repeat;
-		  
-		  background-attachment: fixed;
-		  
-		  background-size: cover;
-		  
-		  background-color: #464646;
-		}
-	</style>
+<meta charset="utf-8">
+<title>ex</title>
+<style>
+
+body{  
+    margin: 0;  
+    padding: 120px 0 0px 0;  
+	min-width: 320px;
+}  
+* html body{  
+    overflow: hidden;  
+}   
+div#headerArea {  
+    position: fixed !important;  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 115px;  
+    background-color: rgba(178,224,93,1.00);
+    color: #fff;  
+	min-width: 320px;
+}  
+ 
+* html div#contentsArea{  
+    height: 100%;  
+    overflow: auto;  
+}
+
+.clearfix:after{
+  content: "."; 
+  display: block;  
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+
+.back
+{
+ background-image: url("back.jpg")
+}
+
+#list{
+	margin:auto;
+}
+#list ul {
+	margin:auto;
+	width: 95%;
+	
+padding: 0; 
+list-style: none;
+text-align: center;
+}
+#list li {
+  float: left;
+  list-style:none;
+  background-color: white;
+  margin: 0; 
+  padding: 0;
+  width: 25%;
+  text-align:center;
+}
+
+#list li a
+{
+display: block; 
+background-color: #FFFFFF;
+text-decoration: none;
+padding-top:5px;
+padding-bottom:5px;
+color: #333;
+margin: auto;
+text-align: center;
+font-size: 16px;
+font-family: "ＭＳ Ｐゴシック",sans-serif;
+border:solid 1px black;
+}
+
+#list li a:hover{
+background-color: #F0FF00;
+color: #000000;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.maintitle
+{
+	background-color:#ffcc99;
+}
+</style>
 </head>
-<body>
-  Coming Soon
+
+<body class = "back">
+
+<div id="headerArea">
+	<center>
+		<img src="img/title11.png" alt = "ロゴ" title="mylogo" width = "250" height = "80">
+	</center>
+    <div id="list"  class="clearfix">
+    <ul class="clearfix">
+        <li><a href="index.html">トップ</a></li>
+        <li>ゲーム(準備中)</li>
+        <li>キャラ(準備中)</li>
+    </ul>
+	</div>
+	
+</div>  
+
+<div id="contentsArea">  
+   
+    
+        <h1 align = "center" class = "maintitle">
+        	<font size= "8" color = "#000000" face = "ヒラギノ角ゴ Pro W3">
+            	<span style="background-color:#ffcc99">
+        			TOP
+               	</span>
+            </font>
+        </h1>
+		<center>
+		<img src="img/OmegaHeroes_Poster.png" alt = "ロゴ" title="top" class = "img">
+        </center>
+        <hr>
+        <font size= "5" color = "#000000" face = "ＭＳ ゴシック" align = "center">
+        <p>このサイトは、オメガヒーローズのティザーサイトです。準備中だからもうちょっと待っててね。</p>
+        </font>
+      	<hr>
+        
+</div>
+
 </body>
 </html>
