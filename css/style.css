@@ -687,7 +687,6 @@ border-radius: 10px;
 max-width: -webkit-calc(100% - 120px);
 max-width: calc(100% - 120px);
 display: inline-block;
-background-color: #00da00;
 }
 
 .balloon-text-right {
@@ -698,14 +697,13 @@ border-radius: 10px;
 max-width: -webkit-calc(100% - 120px);
 max-width: calc(100% - 120px);
 display: inline-block;
-
 }
 
 .balloon-text-right {
 border-color: #aaa;
 }
 .balloon-text-left {
-border-color: #aaa;
+border-color: #00da00;
 }
 .balloon-text-right {
 float: left;
@@ -740,7 +738,7 @@ left: -19px;
 position: absolute;
 content: '';
 border: 10px solid transparent;
-border-left: 10px solid #00da00;
+border-left: 10px solid #aaa;
 top: 15px;
 right: -20px;
 }
