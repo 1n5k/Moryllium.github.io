@@ -700,7 +700,7 @@ display: inline-block;
 }
 
 .balloon-text-right {
-border-color: #00da00;
+background-color: #00da00;
 }
 .balloon-text-left {
 border-color: #aaa;
