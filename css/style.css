@@ -700,10 +700,10 @@ display: inline-block;
 }
 
 .balloon-text-right {
-border-color: #aaa;
+border-color: #00da00;
 }
 .balloon-text-left {
-border-color: #00da00;
+border-color: #aaa;
 }
 .balloon-text-right {
 float: left;
@@ -730,7 +730,7 @@ left: -20px;
 position: absolute;
 content: '';
 border: 10px solid transparent;
-border-right: 10px solid #fff;
+border-right: 10px solid #00da00;
 top: 15px;
 left: -19px;
 }
@@ -746,7 +746,7 @@ right: -20px;
 position: absolute;
 content: '';
 border: 10px solid transparent;
-border-left: 10px solid #00da00;
+border-left: 10px solid #fff;
 top: 15px;
 right: -19px;
 }
