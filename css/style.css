@@ -738,3 +738,40 @@ border-left: 10px solid #fff;
 top: 15px;
 right: -19px;
 }
+
+/* 考え毎 */
+.think .balloon-text-right,.think .balloon-text-left {
+ border-radius: 30px;
+}
+.think .balloon-text-right:before {
+ border: 1px solid #aaa;
+ border-radius: 50%;
+ width: 8px;
+ height: 8px;
+ top: 15px;
+ left: -12px;
+}
+.think .balloon-text-right:after {
+ border: 1px solid #aaa;
+ border-radius: 50%;
+ width: 4px;
+ height: 4px;
+ top: 20px;
+ left: -19px;
+}
+.think .balloon-text-left:before {
+ border: 1px solid #aaa;
+ border-radius: 50%;
+ width: 8px;
+ height: 8px;
+ top: 15px;
+ right: -12px;
+}
+.think .balloon-text-left:after {
+ border: 1px solid #aaa;
+ border-radius: 50%;
+ width: 4px;
+ height: 4px;
+ top: 20px;
+ right: -19px;
+}
