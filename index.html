@@ -1,139 +1,201 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>ex</title>
-<style>
-
-body{  
-    margin: 0;  
-    padding: 120px 0 0px 0;  
-	min-width: 320px;
-}  
-* html body{  
-    overflow: hidden;  
-}   
-div#headerArea {  
-    position: fixed !important;  
-    position: absolute;  
-    top: 0;  
-    left: 0;  
-    width: 100%;  
-    height: 115px;  
-    background-color: rgba(178,224,93,1.00);
-    color: #fff;  
-	min-width: 320px;
-}  
- 
-* html div#contentsArea{  
-    height: 100%;  
-    overflow: auto;  
-}
-
-.clearfix:after{
-  content: "."; 
-  display: block;  
-  font-size:0;	
-  clear: both; 
-  visibility:hidden;
-}
-
-.back
-{
- background-image: url("back.jpg")
-}
-
-#list{
-	margin:auto;
-}
-#list ul {
-	margin:auto;
-	width: 95%;
-	
-padding: 0; 
-list-style: none;
-text-align: center;
-}
-#list li {
-  float: left;
-  list-style:none;
-  background-color: white;
-  margin: 0; 
-  padding: 0;
-  width: 25%;
-  text-align:center;
-}
-
-#list li a
-{
-display: block; 
-background-color: #FFFFFF;
-text-decoration: none;
-padding-top:5px;
-padding-bottom:5px;
-color: #333;
-margin: auto;
-text-align: center;
-font-size: 16px;
-font-family: "ＭＳ Ｐゴシック",sans-serif;
-border:solid 1px black;
-}
-
-#list li a:hover{
-background-color: #F0FF00;
-color: #000000;
-}
-
-.img {
-    max-width: 100%;
-    height: auto;
-}
-
-.maintitle
-{
-	background-color:#ffcc99;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='MORYLLIUM HOMEPAGE'>
+  <meta property='og:url' content='URL入る'>
+  <meta property="og:image" content="img/ogp.png">
+  <title>MORYLLIUM HOMEPAGE'</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
 </head>
 
-<body class = "back">
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">MORYLLIUM</span>
+        <span class="logo-desc">モリリウムのホームページ</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main id="contents">
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">WORKS</h2>
+            <div class="section-desc">
+              <p class="text">
+                これまでの制作実績です。</p>
+            </div>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+              <a href="img/works/work01.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work01.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">作品タイトル</p>
+                <p class="card-caption-info">Design / Coding</p>
+                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="img/works/work02.jpg" data-size="980x668" class="card-image">
+                <img src="img/works/thumb/thumb_work02.jpg" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">作品タイトル</p>
+                <p class="card-caption-info">Design / Coding</p>
+                <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p>
+              </figcaption>
+            </figure>
 
-<div id="headerArea">
-	<center>
-		<img src="img/title11.png" alt = "ロゴ" title="mylogo" width = "200" height = "80">
-	</center>
-    <div id="list"  class="clearfix">
-    <ul class="clearfix">
-        <li><a href="index.html">トップ</a></li>
-        <li><a href="index.html">ゲーム(準備中)</a></li>
-        <li><a href="index.html">キャラ(準備中)</a></li>
-        <li><a href="index.html">リンク(準備中)</a></li>
-    </ul>
-	</div>
-	
-</div>  
 
-<div id="contentsArea">  
-   
-    
-        <h1 align = "center" class = "maintitle">
-        	<font size= "8" color = "#000000" face = "ヒラギノ角ゴ Pro W3">
-            	<span style="background-color:#ffcc99">
-        			TOP
-               	</span>
-            </font>
-        </h1>
-		<center>
-		<img src="img/OmegaHeroes_Poster.png" alt = "ロゴ" title="top" class = "img">
-        </center>
-        <hr>
-        <font size= "5" color = "#000000" face = "ＭＳ ゴシック" align = "center">
-        <p>このサイトは、オメガヒーローズのティザーサイトです。</p>
-        <p>準備中だからもうちょっと待っててね。</p>
-        </font>
-      	<hr>
-        
-</div>
+          </div>
+        </div>
+      </section>
 
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">ABOUT</h2>
+            <p class="section-desc">
+              こんにちは。モリリウムと申します。
+            </p>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/profile/img_profile.png" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br><br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br><br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">CONTACT</h2>
+            <p class="section-desc">
+              お問合わせは下記のフォームかSNSからご連絡をください。
+            </p>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-list">
+              <ul>
+                <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span
+                      class="contact-list-desc">フォーム</span></a></li>
+                <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span
+                      class="contact-list-desc">Twitter</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright&copy;moryllium. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
