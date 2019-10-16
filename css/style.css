@@ -701,6 +701,7 @@ display: inline-block;
 
 .balloon-text-right {
 background-color: #00da00;
+border-color: #aaa;
 }
 .balloon-text-left {
 border-color: #aaa;
