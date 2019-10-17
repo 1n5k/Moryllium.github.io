@@ -763,6 +763,7 @@ right: -19px;
  height: 8px;
  top: 15px;
  left: -12px;
+ background-color: #00da00;
 }
 .think .balloon-text-right:after {
  border: 1px solid #aaa;
@@ -771,6 +772,7 @@ right: -19px;
  height: 4px;
  top: 20px;
  left: -19px;
+ background-color: #00da00;
 }
 .think .balloon-text-left:before {
  border: 1px solid #aaa;
