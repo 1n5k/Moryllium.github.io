@@ -700,10 +700,11 @@ display: inline-block;
 }
 
 .balloon-text-right {
-background-color: #00da00; /*色変えポイント*/
+background-color: #ffffe0; /*色変えポイント*/
 border-color: #aaa;
 }
 .balloon-text-left {
+background-color: #87cefa; 
 border-color: #aaa;
 }
 .balloon-text-right {
@@ -731,7 +732,7 @@ left: -20px;
 position: absolute;
 content: '';
 border: 10px solid transparent;
-border-right: 10px solid #00da00; /*色変えポイント*/
+border-right: 10px solid #ffffe0; /*色変えポイント*/
 top: 15px;
 left: -19px;
 }
@@ -747,7 +748,7 @@ right: -20px;
 position: absolute;
 content: '';
 border: 10px solid transparent;
-border-left: 10px solid #fff;
+border-left: 10px solid #87cefa;
 top: 15px;
 right: -19px;
 }
@@ -763,7 +764,7 @@ right: -19px;
  height: 8px;
  top: 15px;
  left: -12px;
- background-color: #00da00;
+ background-color: #ffffe0;
 }
 .think .balloon-text-right:after {
  border: 1px solid #aaa;
@@ -772,7 +773,7 @@ right: -19px;
  height: 4px;
  top: 20px;
  left: -19px;
- background-color: #00da00;
+ background-color: #ffffe0;
 }
 .think .balloon-text-left:before {
  border: 1px solid #aaa;
